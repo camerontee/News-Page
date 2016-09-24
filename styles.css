@@ -1,0 +1,201 @@
+/* Reset styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End Reset styles*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.clearfix:after { 
+   content: ""; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.page{
+  max-width: 1280px;
+  margin: 40px auto;
+  background-color: #EEEEEE;
+  background-image: url(hero.jpg);
+  background-repeat: no-repeat;
+}
+
+.title{
+  color: white;
+  font-size: 52px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.c2a{
+  color: white;
+  width: 100px;
+  background-color: blue;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.container{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author_image{
+  border-radius: 50%;
+  border: 5px solid #EEEEEE;
+  margin-top: -30px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.quote{
+  margin-top: 136px;
+}
+
+.quote_author{
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: block;
+}
+
+.quote_author_position{
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #666666;
+  font-size: 13px;
+  display: block;
+}
+
+blockquote{
+  font-size: 20px;
+  width: 50%;
+  margin-bottom: 60px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.column{
+  width: 32%;
+  min-height: 300px;
+  float: left;
+  margin: 0 1%;
+  padding-bottom: 30px;
+}
+
+.content_title{
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.content_title_1{
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.content_box_button{
+  font-weight: 100;
+  color: #666666;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.content_body{
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.content_box_hero{
+  width: 100%;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+
+.column_1{
+  margin-left: 0;
+}
+
+.column_3{
+  margin-right: 0;
+}
+
+.content_author_container{
+  position: relative;
+}
+
+.content_author_image{
+  border-radius: 50%;
+  height: 45px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -6px;
+}
+
+.content_author{
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding-left: 55px
+}
+
+.content_position{
+  font-weight: 100;
+  color: #666666;
+  font-size: 12px;
+  padding-left: 55px
+}
